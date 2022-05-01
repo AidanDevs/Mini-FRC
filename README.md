@@ -15,3 +15,14 @@ In the Arduino IDE, go to `File` > `Examples` > `AlfredoConnect-Receive-Master` 
 This will pull up code for a two motor drive train.
 
 # Step 4 - Programming Motors For Your Robot
+First, you will need to declare your motor as a variable, an example of this is below.
+
+![Screenshot 2022-05-01 105839](https://user-images.githubusercontent.com/76411944/166153995-78831207-c520-4a8f-a683-194e15e0242c.png)
+
+The number in the parentheses is the motor port that your motor is connected to on the motor shield.
+
+Next, we will program our motor to run when the A button on an Xbox remote is held down. AlfredoConnect makes this very simple with their library, an example of this is below.
+
+![Screenshot 2022-05-01 110740](https://user-images.githubusercontent.com/76411944/166154384-8e20c7e2-c749-4eb6-b140-91bd97abe837.png)
+
+MAKE SURE THIS IS DONE IN THE LOOP FUNCTION!
